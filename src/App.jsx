@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {  SupaHotFire} from "./bin/SupaHotFire";
 
 function App() {
   // Create the count state.
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <SupaHotFire tagline={'Sweet dollar tea from McDonalds, I drink that'} />
         <p>
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
